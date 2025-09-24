@@ -20,7 +20,7 @@ AI Learning Companion that personalizes support for students on Moodle. It deliv
 | GitHub Usernames | [@aryaaniket008](https://github.com/aryaaniket008), [@Archita0304](https://github.com/Archita0304), [@Vaani64](https://github.com/Vaani64), [@Nisarga253](https://github.com/Nisarga253) |
 
 ## 🎥 Submission Video
-- 📹 Video Link: <add link>
+- 📹 Video Link: https://drive.google.com/file/d/1nxHZRMMX7C2mg1a9rZnkVXuj-hABP12V/view?usp=sharing
 
 ## 🌐 Hosted App / Solution URL
 - 🌍 Deployed URL: <add link if deployed>
