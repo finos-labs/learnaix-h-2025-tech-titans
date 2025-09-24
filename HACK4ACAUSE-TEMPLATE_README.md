@@ -12,30 +12,23 @@ Please complete this file and include it in the `main` branch of your repository
 ---
 
 ## 📄 Summary of Your Solution (under 150 words)
-What problem does your solution solve?
-Personalized, scalable learning support. It helps learners understand concepts faster, practice effectively, and track progress—without needing constant teacher availability. It also bridges learning-to-employability with quizzes, interview coaching, and actionable insights.
 
-How does it work?
-A Flask-based AI assistant provides chat guidance, adaptive quizzes, visual concept diagrams, interview feedback, and analytics. It tracks interactions to tailor difficulty and recommendations. The UI is a single-page experience served by the backend with endpoints for chat, quiz generation/grading, visual content, progress, and career suggestions.
+Briefly describe:
 
-What technologies did you use?
-Backend: Python, Flask, Flask-CORS
-AI: Google Gemini API (with robust offline fallbacks)
-Data/Visualization: NumPy, Pandas, Matplotlib, Seaborn, Pillow
-Config: python-dotenv
-DevOps: Docker, Docker Compose
-Optional integrations scaffolded: Snowflake, OpenAI
+- What problem does your solution solve?
+- How does it work?
+- What technologies did you use?
 
 ## 👥 Team Information
 
-| Field            | Details                                         |
-| ---------------- | ----------------------------------------------- |
-| Team Name        | Tech Titans                                     |
-| Title            | AI companion for learning and development       |
-| Theme            | AI companion                                    |
-| Contact Email    | arya.aniket9835@gmail.com                       |
-| Participants     | [Aniket Arya, Archita, Nisarga, Vani]           |
-| GitHub Usernames | [aryaaniket008,Archita0304,Vaani64,Nisarga253]  |
+| Field            | Details                               |
+| ---------------- | ------------------------------------- |
+| Team Name        | [Your team name]                      |
+| Title            | [Give your project a name]            |
+| Theme            | [E.g., AI companion, Personalized]    |
+| Contact Email    | [Your primary contact email]          |
+| Participants     | [List full names of all participants] |
+| GitHub Usernames | [List usernames e.g., @alice, @bob]   |
 
 ---
 
@@ -43,7 +36,7 @@ Optional integrations scaffolded: Snowflake, OpenAI
 
 Provide a video walkthrough/demo of your project. You can upload it to YouTube, Google Drive, Loom, etc.
 
-- 📹 **Video Link**: [(https://drive.google.com/file/d/1nxHZRMMX7C2mg1a9rZnkVXuj-hABP12V/view?usp=sharing)]
+- 📹 **Video Link**: [Paste link here]
 
 ---
 
