@@ -30,7 +30,7 @@ Optional integrations scaffolded: Snowflake, OpenAI
 
 Provide a video walkthrough/demo of your project. You can upload it to YouTube, Google Drive, Loom, etc.
 
-- 📹 **Video Link**: [Paste link here]
+- 📹 **Video Link**: [https://drive.google.com/file/d/1nxHZRMMX7C2mg1a9rZnkVXuj-hABP12V/view?usp=sharing]
 
 ---
 
