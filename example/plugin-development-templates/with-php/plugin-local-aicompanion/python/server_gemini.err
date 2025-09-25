@@ -1,0 +1,160 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.33.21.120:5002
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 13:33:06] "GET /health HTTP/1.1" 200 -
+ERROR:__main__:Gemini API error: 404 - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+INFO:snowflake.connector.connection:Snowflake Connector for Python Version: 3.7.1, Python Version: 3.12.4, Platform: Windows-11-10.0.26100-SP0
+INFO:snowflake.connector.connection:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+INFO:snowflake.connector.cursor:query: [CREATE TABLE IF NOT EXISTS CHAT_LOGS ( USER_ID INT, ROLE STRING, MESSAGE STRING,...]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:__main__:Snowflake connection established and CHAT_LOGS ensured
+INFO:snowflake.connector.cursor:query: [INSERT INTO CHAT_LOGS (USER_ID, ROLE, MESSAGE) VALUES (1, 'user', 'hello')]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:query: [COMMIT]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:snowflake.connector.cursor:query: [INSERT INTO CHAT_LOGS (USER_ID, ROLE, MESSAGE) VALUES (1, 'assistant', 'I\'m sor...]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:query: [COMMIT]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 13:33:14] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 13:34:12] "GET /health HTTP/1.1" 200 -
+ERROR:__main__:Gemini API error: 400 - {
+  "error": {
+    "code": 400,
+    "message": "API key expired. Please renew the API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key expired. Please renew the API key."
+      }
+    ]
+  }
+}
+
+INFO:snowflake.connector.connection:Snowflake Connector for Python Version: 3.7.1, Python Version: 3.12.4, Platform: Windows-11-10.0.26100-SP0
+INFO:snowflake.connector.connection:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+INFO:snowflake.connector.cursor:query: [CREATE TABLE IF NOT EXISTS CHAT_LOGS ( USER_ID INT, ROLE STRING, MESSAGE STRING,...]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:__main__:Snowflake connection established and CHAT_LOGS ensured
+INFO:snowflake.connector.cursor:query: [INSERT INTO CHAT_LOGS (USER_ID, ROLE, MESSAGE) VALUES (1, 'user', 'hello again')...]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:query: [COMMIT]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:snowflake.connector.cursor:query: [INSERT INTO CHAT_LOGS (USER_ID, ROLE, MESSAGE) VALUES (1, 'assistant', 'I\'m sor...]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:query: [COMMIT]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 13:34:20] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+  File "C:\Users\anike\Downloads\learnaix-h-2025-tech-titans-main\learnaix-h-2025-tech-titans-main\example\plugin-development-templates\with-php\plugin-local-aicompanion\python\simple_ai_service.py", line 813
+    def _aggregate_insights(user_id: int) -> Dict[str, Any]:
+SyntaxError: expected 'except' or 'finally' block

@@ -1,0 +1,272 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://10.33.21.120:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 13:34:50] "GET /health HTTP/1.1" 200 -
+INFO:snowflake.connector.connection:Snowflake Connector for Python Version: 3.7.1, Python Version: 3.12.4, Platform: Windows-11-10.0.26100-SP0
+INFO:snowflake.connector.connection:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+INFO:snowflake.connector.cursor:query: [CREATE TABLE IF NOT EXISTS CHAT_LOGS ( USER_ID INT, ROLE STRING, MESSAGE STRING,...]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:__main__:Snowflake connection established and CHAT_LOGS ensured
+INFO:snowflake.connector.cursor:query: [INSERT INTO CHAT_LOGS (USER_ID, ROLE, MESSAGE) VALUES (1, 'user', 'hello hackath...]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:query: [COMMIT]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:snowflake.connector.cursor:query: [INSERT INTO CHAT_LOGS (USER_ID, ROLE, MESSAGE) VALUES (1, 'assistant', 'Hello th...]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:query: [COMMIT]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 13:34:58] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 13:36:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 13:36:39] "GET /analytics/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 13:36:39] "GET /health HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 13:36:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:snowflake.connector.connection:Snowflake Connector for Python Version: 3.7.1, Python Version: 3.12.4, Platform: Windows-11-10.0.26100-SP0
+INFO:snowflake.connector.connection:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+INFO:snowflake.connector.cursor:query: [CREATE TABLE IF NOT EXISTS CHAT_LOGS ( USER_ID INT, ROLE STRING, MESSAGE STRING,...]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:__main__:Snowflake connection established and CHAT_LOGS ensured
+INFO:snowflake.connector.cursor:query: [INSERT INTO CHAT_LOGS (USER_ID, ROLE, MESSAGE) VALUES (1, 'user', 'hi')]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:query: [COMMIT]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:snowflake.connector.cursor:query: [INSERT INTO CHAT_LOGS (USER_ID, ROLE, MESSAGE) VALUES (1, 'assistant', 'Hi there...]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:query: [COMMIT]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 13:36:50] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 13:40:24] "GET /analytics/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 13:40:26] "GET /analytics/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:27:28] "GET /analytics/advanced/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:27:28] "POST /quiz/generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:27:28] "POST /quiz/grade HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:27:28] "GET /career/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:27:28] "POST /interview/ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:27:28] "POST /interview/coach HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:28:35] "GET / HTTP/1.1" 200 -
+INFO:snowflake.connector.connection:Snowflake Connector for Python Version: 3.7.1, Python Version: 3.12.4, Platform: Windows-11-10.0.26100-SP0
+INFO:snowflake.connector.connection:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+INFO:snowflake.connector.cursor:query: [CREATE TABLE IF NOT EXISTS CHAT_LOGS ( USER_ID INT, ROLE STRING, MESSAGE STRING,...]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:__main__:Snowflake connection established and CHAT_LOGS ensured
+INFO:snowflake.connector.cursor:query: [INSERT INTO CHAT_LOGS (USER_ID, ROLE, MESSAGE) VALUES (1, 'user', 'hello')]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:query: [COMMIT]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:snowflake.connector.cursor:query: [INSERT INTO CHAT_LOGS (USER_ID, ROLE, MESSAGE) VALUES (1, 'assistant', 'Hello th...]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:query: [COMMIT]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:28:49] "POST /chat HTTP/1.1" 200 -
+INFO:snowflake.connector.cursor:query: [INSERT INTO CHAT_LOGS (USER_ID, ROLE, MESSAGE) VALUES (10, 'user', 'hello, what ...]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:query: [COMMIT]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:snowflake.connector.cursor:query: [INSERT INTO CHAT_LOGS (USER_ID, ROLE, MESSAGE) VALUES (10, 'assistant', 'Hello t...]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:query: [COMMIT]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:29:28] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:29:52] "GET /analytics/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:35:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:35:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:35:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:35:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:35:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:35:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:35:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:35:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:35:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:35:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:35:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:35:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:35:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:35:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:36:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:39:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:39:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:39:33] "GET /career/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:39:42] "GET /analytics/advanced/1 HTTP/1.1" 200 -
+INFO:snowflake.connector.connection:Snowflake Connector for Python Version: 3.7.1, Python Version: 3.12.4, Platform: Windows-11-10.0.26100-SP0
+INFO:snowflake.connector.connection:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+INFO:snowflake.connector.cursor:query: [CREATE TABLE IF NOT EXISTS CHAT_LOGS ( USER_ID INT, ROLE STRING, MESSAGE STRING,...]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:__main__:Snowflake connection established and CHAT_LOGS ensured
+INFO:snowflake.connector.cursor:query: [INSERT INTO CHAT_LOGS (USER_ID, ROLE, MESSAGE) VALUES (1, 'user', 'hi')]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:query: [COMMIT]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:snowflake.connector.cursor:query: [INSERT INTO CHAT_LOGS (USER_ID, ROLE, MESSAGE) VALUES (1, 'assistant', 'Hi there...]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:query: [COMMIT]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:40:15] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:40:30] "GET /analytics/advanced/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:40:34] "GET /career/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:40:52] "POST /quiz/generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:41:39] "POST /interview/ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:41:56] "POST /interview/ask HTTP/1.1" 200 -
+INFO:snowflake.connector.cursor:query: [INSERT INTO CHAT_LOGS (USER_ID, ROLE, MESSAGE) VALUES (1, 'user', 'what is perce...]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:query: [COMMIT]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:snowflake.connector.cursor:query: [INSERT INTO CHAT_LOGS (USER_ID, ROLE, MESSAGE) VALUES (1, 'assistant', 'Hey ther...]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:query: [COMMIT]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:46:56] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:47:53] "POST /quiz/generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:47:55] "POST /interview/coach HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:48:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:48:14] "GET /career/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:48:22] "POST /quiz/generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:49:00] "POST /quiz/grade HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:49:27] "POST /quiz/generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:49:52] "GET /analytics/advanced/1 HTTP/1.1" 200 -
+INFO:snowflake.connector.connection:Snowflake Connector for Python Version: 3.7.1, Python Version: 3.12.4, Platform: Windows-11-10.0.26100-SP0
+INFO:snowflake.connector.connection:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+INFO:snowflake.connector.cursor:query: [CREATE TABLE IF NOT EXISTS CHAT_LOGS ( USER_ID INT, ROLE STRING, MESSAGE STRING,...]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:__main__:Snowflake connection established and CHAT_LOGS ensured
+INFO:snowflake.connector.cursor:query: [INSERT INTO CHAT_LOGS (USER_ID, ROLE, MESSAGE) VALUES (1, 'user', 'what is perce...]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:query: [COMMIT]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:snowflake.connector.cursor:query: [INSERT INTO CHAT_LOGS (USER_ID, ROLE, MESSAGE) VALUES (1, 'assistant', 'Hey ther...]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:query: [COMMIT]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:50:02] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:50:35] "POST /interview/ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:50:48] "POST /interview/coach HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:51:05] "POST /interview/coach HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:51:09] "POST /interview/ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:51:32] "POST /interview/ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:52:25] "POST /interview/coach HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:53:01] "GET /career/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:54:41] "POST /interview/coach HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-875-230
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:55:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:55:34] "GET /career/1 HTTP/1.1" 200 -
+INFO:snowflake.connector.connection:Snowflake Connector for Python Version: 3.7.1, Python Version: 3.12.4, Platform: Windows-11-10.0.26100-SP0
+INFO:snowflake.connector.connection:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+INFO:snowflake.connector.cursor:query: [CREATE TABLE IF NOT EXISTS CHAT_LOGS ( USER_ID INT, ROLE STRING, MESSAGE STRING,...]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:__main__:Snowflake connection established and CHAT_LOGS ensured
+INFO:snowflake.connector.cursor:query: [INSERT INTO CHAT_LOGS (USER_ID, ROLE, MESSAGE) VALUES (1, 'user', 'hi')]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:query: [COMMIT]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:snowflake.connector.cursor:query: [INSERT INTO CHAT_LOGS (USER_ID, ROLE, MESSAGE) VALUES (1, 'assistant', 'Hi there...]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:query: [COMMIT]
+INFO:snowflake.connector.cursor:query execution done
+INFO:snowflake.connector.cursor:Number of results in first chunk: 1
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:55:46] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:55:58] "POST /interview/ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:56:13] "POST /interview/coach HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:57:06] "POST /interview/ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:57:11] "POST /interview/coach HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:59:14] "POST /quiz/generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2025 14:59:57] "GET /analytics/advanced/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\anike\\Downloads\\learnaix-h-2025-tech-titans-main\\learnaix-h-2025-tech-titans-main\\example\\plugin-development-templates\\with-php\\plugin-local-aicompanion\\python\\simple_ai_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+  File "C:\Users\anike\Downloads\learnaix-h-2025-tech-titans-main\learnaix-h-2025-tech-titans-main\example\plugin-development-templates\with-php\plugin-local-aicompanion\python\simple_ai_service.py", line 813
+    def _aggregate_insights(user_id: int) -> Dict[str, Any]:
+SyntaxError: expected 'except' or 'finally' block

@@ -1,0 +1,16 @@
+# AI Learning Companion - Simplified Requirements
+# Core dependencies without complex build requirements
+
+# Flask framework
+Flask==2.3.3
+Flask-CORS==4.0.0
+
+# HTTP requests
+requests==2.31.0
+
+# Environment management
+python-dotenv==1.0.0
+
+# Basic data processing (optional)
+pandas==2.0.3
+numpy==1.24.3
