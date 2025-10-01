@@ -1,5 +1,7 @@
 # NatWest Hack4aCause Submission
 
+Project Advancements (Images): https://drive.google.com/drive/folders/19CR1ZPOHAUs42IFlizLLoG01noXuOvtR?usp=sharing
+
 PROJECT GITHUB (Direct Link): https://github.com/finos-labs/learnaix-h-2025-tech-titans/tree/aniket/push-setup
 
 
