@@ -31,7 +31,7 @@ AI Learning Companion that personalizes support for students on Moodle. It deliv
 - 📹 Video Link: https://drive.google.com/file/d/1nxHZRMMX7C2mg1a9rZnkVXuj-hABP12V/view?usp=sharing
 
 ## 🌐 Hosted App / Solution URL
-- 🌍 Deployed URL: <add link if deployed>
+- 🌍 Deployed URL: [Under Progress]
 
 ## 📦 What’s in this repo
 - Moodle plugin templates under `example/plugin-development-templates/`
