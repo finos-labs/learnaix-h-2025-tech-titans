@@ -5,7 +5,7 @@ Project Advancements (Images): https://drive.google.com/drive/folders/19CR1ZPOHA
 PROJECT GITHUB (Direct Link): https://github.com/finos-labs/learnaix-h-2025-tech-titans/tree/aniket/push-setup
 
 
-FOR Codes (PATH_TO_FOLLOW): https://github.com/finos-labs/learnaix-h-2025-tech-titans/tree/aniket/push-setup/example/plugin-development-templates/with-php/plugin-local-aicompanion/python
+FOR Codes (PATH_TO_FOLLOW, DIRECT LINK): https://github.com/finos-labs/learnaix-h-2025-tech-titans/tree/aniket/push-setup/example/plugin-development-templates/with-php/plugin-local-aicompanion/python
 
 
 ![badge-labs](https://user-images.githubusercontent.com/327285/230928932-7c75f8ed-e57b-41db-9fb7-a292a13a1e58.svg)
